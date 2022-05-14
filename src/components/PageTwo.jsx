@@ -14,7 +14,7 @@ function PageTwo() {
             What is SGC ID?
           </div>
           <div className="relative text-xl z-30" data-aos="fade-up">
-            SGC ID a.k.a Space Game Comunity ID is a comunity for gamers in Indonesia
+            SGC ID a.k.a Space Game Community ID is a community for gamers in Indonesia
           </div>
           <div className="absolute w-80 h-80 rounded-full bg-[#10054d] bg-opacity-20 p-8 backdrop-filter backdrop-blur-sm left-[45%] top-[425px] md:left-2/3 md:top-52 z-0"></div>
         </div>
