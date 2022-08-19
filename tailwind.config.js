@@ -3,13 +3,14 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        100: '700px',
+        700: '700px',
       },
       width: {
-        100: '700px',
+        700: '700px',
       },
-      inset: {
-        600: '56%',
+      fontFamily: {
+        visbyRoundCF: ['VisbyRoundCF'],
+        visbyRoundCFBold: ['VisbyRoundCFBold'],
       },
     },
   },

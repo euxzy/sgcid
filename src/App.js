@@ -15,12 +15,12 @@ function App() {
     });
   });
   return (
-    <div className="App relative bg-[#10054d] text-white w-full overflow-hidden bg-gradient-to-br from-[#10054d] via-[#3d065f] to-[#45108a]">
-      <div className="w-full h-screen fixed z-10"></div>
+    <div className="relative bg-[#10054d] text-white w-full overflow-hidden bg-gradient-to-br from-[#10054d] via-[#3d065f] to-[#45108a] font-visbyRoundCFB">
+      <div className="w-full h-screen fixed z-10 bg-image"></div>
 
       <div className="w-full h-screen absolute">
         <div className="fixed w-96 h-96 rounded-full bg-[#10054d] bg-opacity-20 p-8 backdrop-filter backdrop-blur-sm -left-1/3 md:-left-24 -top-48 z-40"></div>
-        <div className="absolute w-100 h-100 rounded-full bg-[#10054d] bg-opacity-20 p-8 backdrop-filter backdrop-blur-sm left-1/3 md:left-3/4 top-80 z-20"></div>
+        <div className="absolute w-700 h-700 rounded-full bg-[#10054d] bg-opacity-20 p-8 backdrop-filter backdrop-blur-sm left-1/3 md:left-3/4 top-80 z-20"></div>
       </div>
 
       <PageOne />

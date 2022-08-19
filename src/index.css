@@ -13,17 +13,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  .App {
-    font-family: 'VisbyRoundCF';
-  }
-  .PageOne,
-  .PageTwo > div:first-child > div:last-child div:first-child,
-  .PageThree > div:first-child > div:first-child div:first-child,
-  .Contact > div > div:first-child > div:first-child h4 {
-    font-family: 'VisbyRoundCFBold';
-  }
-  .App > div:first-child {
+@layer components {
+  .bg-image {
     background: url(./assets/img/bg.png) no-repeat center center/cover;
   }
 }
